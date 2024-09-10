@@ -1,5 +1,6 @@
 3. Add more sections to the resource page, reccomendations for games? reccomendations for gog.com? articles on FOSS? etc
 5. ADD THOUGHTS to navbar for all sections. index and thoughts html pages already ok
+6. Blog post: Why I'm not interested in the PS5 Pro 
 6. change thoughts.html status
 7. add thoughts
 8. add projects to projects.html
