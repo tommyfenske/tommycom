@@ -3,7 +3,7 @@ html {
     font-weight: 400;
     font-style: normal;
     color: white;
-    background-image: url("Assets/background-alt.gif");
+    background-image: url("Assets/background.gif");
 }
 
 body {
@@ -80,4 +80,17 @@ main {
 
 .blog-post p {
     padding: 0px 25px;
+}
+
+.photograph {
+    margin-top: 50px;
+}
+
+.photograph img {
+    border: 1px solid white;
+    height: 500px;
+}
+
+.photograph p {
+    margin: 0;;
 }
