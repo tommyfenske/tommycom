@@ -35,12 +35,12 @@ th, td {
 
 .back {
     background-color: black;
-    border: 0px solid white;
+    border: 0px dotted white;
 }
 
 #side-nav {
     height: fill;
-    width: 150px; /* Set the width of the sidebar */
+    width: 125px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -51,7 +51,7 @@ th, td {
 }
 
 main {
-    margin-left: 200px;
+    margin-left: 175px;
     padding: 10px;
 }
 
@@ -63,6 +63,10 @@ main {
 
 .page-head * {
     margin: 0;
+}
+
+#page-head-star {
+    height: 75px;
 }
 
 #image-board {
@@ -93,4 +97,17 @@ main {
 
 .photograph p {
     margin: 0;;
+}
+
+.game {
+    margin: 25px 0;
+}
+
+.game p, h3 {
+    margin: 0;
+}
+.game img {
+    margin: 10px 0;
+    height: 250px;
+    border: 1px groove white;
 }

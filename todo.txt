@@ -1,8 +1,9 @@
 3. Add more sections to the resource page, reccomendations for games? reccomendations for gog.com? etc
-6. change thoughts.html status
 7. add more thoughts
 8. add projects to projects.html
 9. blog about my stance on free and FOS software,, when and why I use them and when I don't
-10.
-11.
-12.
+10. replace thoughts section of navbar with miscellaneous section, and add thoughts to that instead
+11. add "lists" section to miscellaneous section
+12. start lists: favorite music, games, etc. reccomendations? wishlists? book lists?
+13. add gunpla section to miscellaneous?
+14. add open source games like devilution to bookshelf section

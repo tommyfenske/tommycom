@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOMMYCOM - BOOKSHELF</title>
+    <title>TOMMYCOM - SHELF</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +16,9 @@
 <div id="side-nav" class="back">
     <p><a href="index.html">Home</a></p>
     <p><a href="projects.html">Projects</a></p>
+    <p><a href="games.html">Games</a></p>
     <p><a href="blog.html">Blog</a></p>
-    <p><a href="shelf.html">Bookshelf</a> ★</p>
+    <p><a href="shelf.html">Shelf</a> ★</p>
     <p><a href="image-board.html">Image Board</a></p>
     <p><a href="photography.html">Photography</a></p>
     <p><a href="tools.html">Tools</a></p>
@@ -28,27 +29,32 @@
 <main class="back">
     <div class="page-head">
         <div>
-            <h1>BOOKSHELF</h1>
-            <h3>Status: buying DRM-free games</h2>
+            <h1>SHELF</h1>
+            <h3>Status: busy playing games</h2>
         </div>
         <img id="page-head-star" src="Assets/star.gif">
     </div>
 
-    <p>Cataloging my various collections. These are not lists of every game or book I have read, but lists reflecting 
-        media I own. They are not necessarily in order, but more recently consumed media are more likely to be at the top. Items in these lists are only inlcuded if I:</p>
+    <p>Catalogs of my various collections. These are not lists of every piece of media I have engaged with, but are lists 
+        reflecting the media I own. They are not necessarily in order, but more recently consumed media are more likely 
+        to be at the top. Items in these lists are only inlcuded if I:</p>
     <ol>
         <li>own a physical copy of the corresponding media, or</li>
-        <li>own a <a href="https://en.wikipedia.org/wiki/Digital_rights_management" target="_blank">DRM-free</a>
-            digital copy that can be accessed without relying on a network connection or corporations.</li>
+        <li>have free access to the source code/files of the corresponding media, or</li>
+        <li>own a <a href="https://www.defectivebydesign.org/what_is_drm" target="_blank">DRM-free</a>
+            digital copy that can be accessed without relying on a network connection or corporations for access.
+        </li>
     </ol>
 
     <p>
-        <a href="#shelf-books">Books</a>
+        <a href="#shelf-nonfiction">Non-fiction</a>
+        -
+        <a href="#shelf-fiction">Fiction</a>
         -
         <a href="#shelf-games">Videogames</a>
     <p>
 
-    <h3 id="shelf-books">Books</h3>
+    <h3 id="shelf-nonfiction">Non-Fiction</h3>
     <table>
         <tr>
             <th>Title</th>
@@ -57,9 +63,9 @@
         </tr>
         <!--
         <tr>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Published</th>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Published</td>
         </tr>
         -->
         <tr>
@@ -119,6 +125,66 @@
         </tr>
     </table>
 
+    <br>
+
+    <h3 id="shelf-fiction">Fiction</h3>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Published</th>
+        </tr>
+        <!--
+        <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Published</td>
+        </tr>
+        -->
+        <tr>
+            <td>Psalm for the Wild-Built</td>
+            <td>Becky Chambers</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <td>Mistborn</td>
+            <td>Brandon Sanderson</td>
+            <td>2008</td>
+        </tr>
+        <tr>
+            <td>The First Forty-Nine Stories</td>
+            <td>Ernest Hemingway</td>
+            <td>1938</th>
+        </tr>
+        <tr>
+            <td>Mossflower</td>
+            <td>Brian Jacques</ts>
+            <td>1988</td>
+        </tr>
+        <tr>
+            <td>Redwall</td>
+            <td>Brian Jacques</td>
+            <td>1986</td>
+        </tr>
+        <tr>
+            <td>Nine Stories</td>
+            <td>J. D. Salinger</td>
+            <td>1953</td>
+        </tr>
+        <tr>
+            <td>The Last Wish</td>
+            <td>Andrzej Sapkowski</td>
+            <td>1993</td>
+        </tr>
+        <tr>
+            <td>The Catcher and the Rye</td>
+            <td>J. D. Salinger</td>
+            <td>1951</td>
+        </tr>
+    </table>
+
+    <br>
+
     <h3 id="shelf-games">Videogames</h3>
     <table>
         <tr>
@@ -128,9 +194,9 @@
         </tr>
         <!--
         <tr>
-            <th>Title</th>
-            <th>Developer</th>
-            <th>Released</th>
+            <td>Title</td>
+            <td>Developer</td>
+            <td>Released</td>
         </tr>
         -->
         <tr>
@@ -317,7 +383,7 @@
 
 </main>
 
-<script src="script.js"></script>
+<script src="Scripts/script.js"></script>
 
 </body>
 </html>
