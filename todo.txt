@@ -2,4 +2,5 @@
 9. blog about my stance on free and FOS software,, when and why I use them and when I don't
 12. start lists: favorite music, games, etc. reccomendations? wishlists? book lists?
 14. add open source games like devilution to bookshelf section
-15. link /Misc/gunpla.html to the <a>Gunpla</a> in misc.html
+16. add shelf to miscellaneous section
+17. read more about anti capitalist and anti consumerism and update resources section
